@@ -2,25 +2,23 @@
   "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "depends": [
-
-  ],
+  "depends": [],
   "license": "LGPL",
   "name": "glibc",
   "platform": "linux",
   "version": "2.42",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/glibc/glibc-2.42.tar.bz2",
-  "source": [{
-    "url": "https://mirrors.kernel.org/gnu/glibc/glibc-2.42.tar.xz",
-    "sha256": "23c6f5a27932b435cae94e087cb8b1f5"
-  }],
+  "source": [
+    {
+      "url": "https://mirrors.kernel.org/gnu/glibc/glibc-2.42.tar.xz",
+      "sha256": "d1775e32e4628e64ef930f435b67bb63af7599acb6be2b335b9f19f16509f17f"
+    }
+  ],
   "extras": [
     "https://www.linuxfromscratch.org/patches/lfs/12.4/glibc-2.42-fhs-1.patch",
     "https://www.iana.org/time-zones/repository/releases/tzdata2025b.tar.gz"
   ],
   "is_group": false,
   "no_package": false,
-  "mkdeps": [
-
-  ]
+  "mkdeps": []
 }

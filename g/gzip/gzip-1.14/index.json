@@ -10,16 +10,14 @@
   "platform": "linux",
   "version": "1.14",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gzip/gzip-1.14.tar.bz2",
-  "source": [{
-    "url": "gzip-1.14.tar.xz",
-    "sha256": "4bf5a10f287501ee8e8ebe00ef62b2c2"
-  }],
-  "extras": [
-
+  "source": [
+    {
+      "url": "gzip-1.14.tar.xz",
+      "sha256": "01a7b881bd220bfdf615f97b8718f80bdfd3f6add385b993dcf6efd14e8c0ac6"
+    }
   ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
-  "mkdeps": [
-
-  ]
+  "mkdeps": []
 }
