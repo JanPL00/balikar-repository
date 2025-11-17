@@ -13,7 +13,7 @@
   "name": "gcc",
   "platform": "linux",
   "version": "15.2.0",
-  "download_url": "https://github.com/USER/balikar-repo/raw/main/repo/g/gcc/gcc-15.2.0.tar.bz2",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gcc/gcc-15.2.0.tar.bz2",
   "source": [{
     "url": "https://ftp.gnu.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz",
     "sha256": "3e6cb5ef3899f9f490a8a1fbb26e6fda"

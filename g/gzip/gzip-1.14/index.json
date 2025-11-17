@@ -9,7 +9,7 @@
   "name": "gzip",
   "platform": "linux",
   "version": "1.14",
-  "download_url": "https://github.com/USER/balikar-repo/raw/main/repo/g/gzip/gzip-1.14.tar.bz2",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gzip/gzip-1.14.tar.bz2",
   "source": [{
     "url": "https://ftp.gnu.org/gnu/gzip/gzip-1.14.tar.xz",
     "sha256": "4bf5a10f287501ee8e8ebe00ef62b2c2"
