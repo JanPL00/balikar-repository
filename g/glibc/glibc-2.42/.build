@@ -1,4 +1,4 @@
-patch -Np1 -i ../glibc-2.42-fhs-1.patch
+patch -Np1 -i ../glibc-2.42-fhs-1.patch || true
 
 sed -e '/unistd.h/i #include <string.h>' \
     -e '/libc_rwlock_init/c\
