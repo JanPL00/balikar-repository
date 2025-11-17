@@ -15,6 +15,7 @@
     }
   ],
   "extras": [
+    ".build",
     "https://www.linuxfromscratch.org/patches/lfs/12.4/glibc-2.42-fhs-1.patch",
     "https://www.iana.org/time-zones/repository/releases/tzdata2025b.tar.gz"
   ],
