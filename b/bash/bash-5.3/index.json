@@ -12,8 +12,7 @@
   "version": "5.3",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/b/bash/bash-5.3.tar.bz2",
   "source": [{
-    "url": "https://ftp.gnu.org/gnu/bash/bash-5.3.tar.gz",
-    "sha256": "977c8c0c5ae6309191e7768e28ebc951"
+    "url": "https://ftp.gnu.org/gnu/bash/bash-5.3.tar.gz"
   }],
   "extras": [],
   "is_group": false,

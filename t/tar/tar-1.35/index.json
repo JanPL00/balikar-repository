@@ -11,8 +11,7 @@
   "version": "1.35",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/t/tar/tar-1.35.tar.bz2",
   "source": [{
-    "url": "https://mirror.clientvps.com/gnu/tar/tar-1.35.tar.xz",
-    "sha256": "a2d8042658cfd8ea939e6d911eaf4152"
+    "url": "https://mirror.clientvps.com/gnu/tar/tar-1.35.tar.xz"
   }],
   "extras": [],
   "is_group": false,
