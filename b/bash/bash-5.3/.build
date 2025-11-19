@@ -3,6 +3,12 @@ set -e
 
 # Bash 5.3 build script based on LFS 12.4
 
+# Set paths for installed readline if using staging directory
+if [ -n "$P" ]; then
+    export CPPFLAGS="-I$P/usr/include"
+    export LDFLAGS="-L$P/usr/lib"
+fi
+
 # Configure
 ./configure --prefix=/usr             \
             --without-bash-malloc     \
@@ -13,4 +19,8 @@ set -e
 make
 
 # Install
-make DESTDIR=$P install
+if [ -n "$P" ]; then
+    make DESTDIR=$P install
+else
+    make install
+fi
