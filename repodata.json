@@ -496,6 +496,9 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gzip/gzip-1.14.tar.bz2",
             "source": [
                 {
+                    "url": "gzip-1.14.tar.xz"
+                },
+                {
                     "url": "https://mirror.clientvps.com/gnu/gzip/gzip-1.14.tar.xz"
                 },
                 {
