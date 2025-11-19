@@ -10,7 +10,7 @@ set -e
 make
 
 # Install
-make install
+make DESTDIR=$P install
 
 # Install documentation
-make -C doc install-html docdir=/usr/share/doc/tar-1.35
+make -C doc DESTDIR=$P install-html docdir=/usr/share/doc/tar-1.35

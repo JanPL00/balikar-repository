@@ -10,8 +10,4 @@ set -e
 make
 
 # Install
-if [ -n "$DESTDIR" ]; then
-    make DESTDIR="$DESTDIR" install
-else
-    make install
-fi
+make DESTDIR=$P install

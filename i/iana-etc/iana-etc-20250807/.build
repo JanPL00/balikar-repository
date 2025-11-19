@@ -1,5 +1,8 @@
 #!/bin/bash
 set -e
 
+# Build
 make
-make install
+
+# Install
+make DESTDIR=$P install

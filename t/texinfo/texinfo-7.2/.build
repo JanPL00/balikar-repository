@@ -10,14 +10,7 @@ set -e
 make
 
 # Install
-if [ -n "$DESTDIR" ]; then
-    make DESTDIR="$DESTDIR" install
-    
-    # Push to the install dir for info command
-    make DESTDIR="$DESTDIR" TEXMF="${DESTDIR}/usr/share/texmf" install-tex
-else
-    make install
-    
-    # Push to the install dir for info command  
-    make TEXMF=/usr/share/texmf install-tex
-fi
+make DESTDIR=$P install
+
+# Push to the install dir for info command
+make DESTDIR=$P TEXMF="$P/usr/share/texmf" install-tex
