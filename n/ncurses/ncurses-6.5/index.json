@@ -28,8 +28,6 @@
     }
   ],
   "extras": [
-    ".build",
-    ".install"
   ],
   "is_group": false,
   "no_package": false,

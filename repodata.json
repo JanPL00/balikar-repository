@@ -21,12 +21,21 @@
             "source": [
                 {
                     "url": "https://mirror.clientvps.com/nongnu/acl/acl-2.3.2.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/savannah/nongnu/acl/acl-2.3.2.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/savannah/nongnu/acl/acl-2.3.2.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/savannah/acl/acl-2.3.2.tar.xz"
+                },
+                {
+                    "url": "https://download.savannah.gnu.org/releases/acl/acl-2.3.2.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -46,12 +55,21 @@
             "source": [
                 {
                     "url": "https://mirror.clientvps.com/nongnu/attr/attr-2.5.2.tar.gz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/savannah/nongnu/attr/attr-2.5.2.tar.gz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/savannah/nongnu/attr/attr-2.5.2.tar.gz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/savannah/attr/attr-2.5.2.tar.gz"
+                },
+                {
+                    "url": "https://download.savannah.gnu.org/releases/attr/attr-2.5.2.tar.gz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -61,8 +79,8 @@
             "build": "0",
             "build_number": 0,
             "depends": [
-                "glibc",
-                "readline"
+                "glibc >=2.40",
+                "readline >=8.0"
             ],
             "license": "GPLv3+",
             "name": "bash",
@@ -71,10 +89,10 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/b/bash/bash-5.3.tar.bz2",
             "source": [
                 {
-                    "url": "https://mirror.clientvps.com/gnu/bash/bash-5.3.tar.gz"
+                    "url": "https://123mirror.clientvps.com/gnu/bash/bash-5.3.tar.gz"
                 },
                 {
-                    "url": "https://mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
+                    "url": "https://456mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
                 },
                 {
                     "url": "ftp://mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
@@ -368,10 +386,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gettext/gettext-0.23.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -404,7 +419,6 @@
                 }
             ],
             "extras": [
-                ".build",
                 "https://www.linuxfromscratch.org/patches/lfs/12.4/glibc-2.42-fhs-1.patch",
                 "https://www.iana.org/time-zones/repository/releases/tzdata2025b.tar.gz"
             ],
@@ -475,10 +489,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/grep/grep-3.12.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -577,10 +588,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/m4/m4-1.4.20.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -616,10 +624,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/make/make-4.4.1.tar.gz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -653,10 +658,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/ncurses/ncurses-6.5.tar.gz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -692,10 +694,42 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/patch/patch-2.7.6.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "readline-8.2-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "glibc >=2.40",
+                "ncurses >=6.0"
             ],
+            "license": "GPL-3.0-or-later",
+            "name": "readline",
+            "platform": "linux",
+            "version": "8.2",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/r/readline/readline-8.2.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/readline/readline-8.2.tar.gz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/readline/readline-8.2.tar.gz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/readline/readline-8.2.tar.gz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/readline/readline-8.2.tar.gz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/readline/readline-8.2.tar.gz"
+                }
+            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -731,10 +765,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/sed/sed-4.9.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -805,10 +836,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/texinfo/texinfo-7.2.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []

@@ -1,0 +1,33 @@
+#!/bin/bash
+set -e
+
+# Readline 8.2 build script based on LFS 12.4
+
+# Apply security fix
+sed -i '/MV.*old/d' Makefile.in
+sed -i '/{OLDSUFF}/c:' support/shlib-install
+
+# Prepare for 32-bit offsets
+sed -i 's/-Wl,-rpath,[^ ]*//' support/shobj-conf
+
+# Configure
+./configure --prefix=/usr    \
+            --disable-static \
+            --with-curses    \
+            --docdir=/usr/share/doc/readline-8.2
+
+# Build
+make SHLIB_LIBS="-lncursesw"
+
+# Install
+if [ -n "$DESTDIR" ]; then
+    make SHLIB_LIBS="-lncursesw" DESTDIR="$DESTDIR" install
+    
+    # Install documentation
+    install -v -m644 doc/*.{ps,pdf,html,dvi} "${DESTDIR}/usr/share/doc/readline-8.2"
+else
+    make SHLIB_LIBS="-lncursesw" install
+    
+    # Install documentation
+    install -v -m644 doc/*.{ps,pdf,html,dvi} /usr/share/doc/readline-8.2
+fi

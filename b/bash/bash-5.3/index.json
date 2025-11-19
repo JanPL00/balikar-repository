@@ -3,8 +3,8 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "glibc",
-    "readline"
+    "glibc >=2.40",
+    "readline >=8.0"
   ],
   "license": "GPLv3+",
   "name": "bash",
@@ -13,10 +13,10 @@
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/b/bash/bash-5.3.tar.bz2",
   "source": [
     {
-      "url": "https://mirror.clientvps.com/gnu/bash/bash-5.3.tar.gz"
+      "url": "https://123mirror.clientvps.com/gnu/bash/bash-5.3.tar.gz"
     },
     {
-      "url": "https://mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
+      "url": "https://456mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
     },
     {
       "url": "ftp://mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"

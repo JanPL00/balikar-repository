@@ -13,11 +13,21 @@
   "source": [
     {
       "url": "https://mirror.clientvps.com/nongnu/attr/attr-2.5.2.tar.gz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/savannah/nongnu/attr/attr-2.5.2.tar.gz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/savannah/nongnu/attr/attr-2.5.2.tar.gz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/savannah/attr/attr-2.5.2.tar.gz"
+    },
+    {
+      "url": "https://download.savannah.gnu.org/releases/attr/attr-2.5.2.tar.gz"
     }
   ],
   "extras": [
-    ".build",
-    ".install"
   ],
   "is_group": false,
   "no_package": false,
