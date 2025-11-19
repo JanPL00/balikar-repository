@@ -1,0 +1,21 @@
+#!/bin/bash
+set -e
+
+# Gettext 0.23 build script based on LFS 12.4
+
+# Configure
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/gettext-0.23
+
+# Build
+make
+
+# Install
+if [ -n "$DESTDIR" ]; then
+    make DESTDIR="$DESTDIR" install
+    chmod -v 0755 "${DESTDIR}/usr/lib/preloadable_libintl.so"
+else
+    make install
+    chmod -v 0755 /usr/lib/preloadable_libintl.so
+fi

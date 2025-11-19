@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "attr >=2.5.0",
+    "glibc"
+  ],
+  "license": "LGPL-2.1-or-later",
+  "name": "acl",
+  "platform": "linux",
+  "version": "2.3.2",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/a/acl/acl-2.3.2.tar.bz2",
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/nongnu/acl/acl-2.3.2.tar.xz"
+    }
+  ],
+  "extras": [
+    ".build",
+    ".install"
+  ],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}

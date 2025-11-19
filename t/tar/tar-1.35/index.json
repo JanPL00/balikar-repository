@@ -10,9 +10,23 @@
   "platform": "linux",
   "version": "1.35",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/t/tar/tar-1.35.tar.bz2",
-  "source": [{
-    "url": "https://mirror.clientvps.com/gnu/tar/tar-1.35.tar.xz"
-  }],
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/tar/tar-1.35.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/tar/tar-1.35.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/tar/tar-1.35.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/tar/tar-1.35.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/tar/tar-1.35.tar.xz"
+    }
+  ],
   "extras": [],
   "is_group": false,
   "no_package": false,

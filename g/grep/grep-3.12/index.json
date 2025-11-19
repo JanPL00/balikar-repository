@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "glibc"
+  ],
+  "license": "GPL-3.0-or-later",
+  "name": "grep",
+  "platform": "linux",
+  "version": "3.12",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/grep/grep-3.12.tar.bz2",
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/grep/grep-3.12.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/grep/grep-3.12.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/grep/grep-3.12.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/grep/grep-3.12.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/grep/grep-3.12.tar.xz"
+    }
+  ],
+  "extras": [
+    ".build",
+    ".install"
+  ],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}

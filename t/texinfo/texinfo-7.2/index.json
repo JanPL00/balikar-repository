@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "bash >=5.0",
+    "glibc >=2.40",
+    "ncurses >=6.0",
+    "perl"
+  ],
+  "license": "GPL-3.0-or-later",
+  "name": "texinfo",
+  "platform": "linux",
+  "version": "7.2",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/t/texinfo/texinfo-7.2.tar.bz2",
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/texinfo/texinfo-7.2.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/texinfo/texinfo-7.2.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/texinfo/texinfo-7.2.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/texinfo/texinfo-7.2.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/texinfo/texinfo-7.2.tar.xz"
+    }
+  ],
+  "extras": [
+    ".build",
+    ".install"
+  ],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}

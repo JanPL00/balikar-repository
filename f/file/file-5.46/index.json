@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "glibc >=2.40",
+    "zlib >=1.3.0"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "file",
+  "platform": "linux",
+  "version": "5.46",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/f/file/file-5.46.tar.bz2",
+  "source": [
+    {
+      "url": "https://astron.com/pub/file/file-5.46.tar.gz"
+    }
+  ],
+  "extras": [
+    ".build",
+    ".install"
+  ],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}

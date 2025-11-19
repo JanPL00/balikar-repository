@@ -10,7 +10,19 @@
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/glibc/glibc-2.42.tar.bz2",
   "source": [
     {
-      "url": "https://ftpmirror.gnu.org/gnu/glibc/glibc-2.42.tar.xz"
+      "url": "https://mirror.clientvps.com/gnu/glibc/glibc-2.42.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/glibc/glibc-2.42.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/glibc/glibc-2.42.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/glibc/glibc-2.42.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/glibc/glibc-2.42.tar.xz"
     }
   ],
   "extras": [

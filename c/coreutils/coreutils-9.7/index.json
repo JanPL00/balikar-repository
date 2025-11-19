@@ -10,9 +10,23 @@
   "platform": "linux",
   "version": "9.7",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/c/coreutils/coreutils-9.7.tar.bz2",
-  "source": [{
-    "url": "https://ftp.gnu.org/gnu/coreutils/coreutils-9.7.tar.xz"
-  }],
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/coreutils/coreutils-9.7.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/coreutils/coreutils-9.7.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/coreutils/coreutils-9.7.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/coreutils/coreutils-9.7.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/coreutils/coreutils-9.7.tar.xz"
+    }
+  ],
   "extras": [
     "https://www.linuxfromscratch.org/patches/lfs/12.4/coreutils-9.7-i18n-1.patch",
     "https://www.linuxfromscratch.org/patches/lfs/12.4/coreutils-9.7-upstream_fix-1.patch"

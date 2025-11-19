@@ -1,0 +1,17 @@
+#!/bin/bash
+set -e
+
+# Patch 2.7.6 build script based on LFS 12.4
+
+# Configure
+./configure --prefix=/usr
+
+# Build
+make
+
+# Install
+if [ -n "$DESTDIR" ]; then
+    make DESTDIR="$DESTDIR" install
+else
+    make install
+fi

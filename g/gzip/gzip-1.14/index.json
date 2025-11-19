@@ -13,6 +13,18 @@
   "source": [
     {
       "url": "https://mirror.clientvps.com/gnu/gzip/gzip-1.14.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/gzip/gzip-1.14.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/gzip/gzip-1.14.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/gzip/gzip-1.14.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gzip/gzip-1.14.tar.xz"
     }
   ],
   "extras": [],

@@ -1,0 +1,39 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "bash >=5.0",
+    "coreutils >=9.0",
+    "glibc >=2.40"
+  ],
+  "license": "GPL-3.0-or-later",
+  "name": "diffutils",
+  "platform": "linux",
+  "version": "3.12",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/d/diffutils/diffutils-3.12.tar.bz2",
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/diffutils/diffutils-3.12.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/diffutils/diffutils-3.12.tar.xz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/diffutils/diffutils-3.12.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/diffutils/diffutils-3.12.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/diffutils/diffutils-3.12.tar.xz"
+    }
+  ],
+  "extras": [
+    ".build",
+    ".install"
+  ],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}

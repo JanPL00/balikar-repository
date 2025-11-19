@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "glibc >=2.40"
+  ],
+  "license": "MIT",
+  "name": "ncurses",
+  "platform": "linux",
+  "version": "6.5",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/n/ncurses/ncurses-6.5.tar.bz2",
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/ncurses/ncurses-6.5.tar.gz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/ncurses/ncurses-6.5.tar.gz"
+    },
+    {
+      "url": "ftp://mirror.checkdomain.de/gnu/ncurses/ncurses-6.5.tar.gz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/ncurses/ncurses-6.5.tar.gz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/ncurses/ncurses-6.5.tar.gz"
+    }
+  ],
+  "extras": [
+    ".build",
+    ".install"
+  ],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}

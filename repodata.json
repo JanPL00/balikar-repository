@@ -5,6 +5,57 @@
         "arch": "x86_64"
     },
     "packages": {
+        "acl-2.3.2-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "attr >=2.5.0",
+                "glibc"
+            ],
+            "license": "LGPL-2.1-or-later",
+            "name": "acl",
+            "platform": "linux",
+            "version": "2.3.2",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/a/acl/acl-2.3.2.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/nongnu/acl/acl-2.3.2.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "attr-2.5.2-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "glibc"
+            ],
+            "license": "LGPL-2.1-or-later",
+            "name": "attr",
+            "platform": "linux",
+            "version": "2.5.2",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/a/attr/attr-2.5.2.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/nongnu/attr/attr-2.5.2.tar.gz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
         "bash-5.3-0.tar.bz2": {
             "arch": "x86_64",
             "build": "0",
@@ -20,7 +71,19 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/b/bash/bash-5.3.tar.bz2",
             "source": [
                 {
-                    "url": "https://ftp.gnu.org/gnu/bash/bash-5.3.tar.gz"
+                    "url": "https://mirror.clientvps.com/gnu/bash/bash-5.3.tar.gz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/bash/bash-5.3.tar.gz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/bash/bash-5.3.tar.gz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/bash/bash-5.3.tar.gz"
                 }
             ],
             "extras": [],
@@ -51,6 +114,46 @@
             "no_package": false,
             "mkdeps": []
         },
+        "bison-3.8.2-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash >=5.0",
+                "coreutils >=9.0",
+                "glibc >=2.40",
+                "m4 >=1.4.18"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "bison",
+            "platform": "linux",
+            "version": "3.8.2",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/b/bison/bison-3.8.2.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/bison/bison-3.8.2.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/bison/bison-3.8.2.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/bison/bison-3.8.2.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/bison/bison-3.8.2.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/bison/bison-3.8.2.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
         "coreutils-9.7-0.tar.bz2": {
             "arch": "x86_64",
             "build": "0",
@@ -65,7 +168,19 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/c/coreutils/coreutils-9.7.tar.bz2",
             "source": [
                 {
-                    "url": "https://ftp.gnu.org/gnu/coreutils/coreutils-9.7.tar.xz"
+                    "url": "https://mirror.clientvps.com/gnu/coreutils/coreutils-9.7.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/coreutils/coreutils-9.7.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/coreutils/coreutils-9.7.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/coreutils/coreutils-9.7.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/coreutils/coreutils-9.7.tar.xz"
                 }
             ],
             "extras": [
@@ -76,16 +191,119 @@
             "no_package": false,
             "mkdeps": []
         },
+        "diffutils-3.12-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash >=5.0",
+                "coreutils >=9.0",
+                "glibc >=2.40"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "diffutils",
+            "platform": "linux",
+            "version": "3.12",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/d/diffutils/diffutils-3.12.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/diffutils/diffutils-3.12.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/diffutils/diffutils-3.12.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/diffutils/diffutils-3.12.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/diffutils/diffutils-3.12.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/diffutils/diffutils-3.12.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "file-5.46-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "glibc >=2.40",
+                "zlib >=1.3.0"
+            ],
+            "license": "BSD-2-Clause",
+            "name": "file",
+            "platform": "linux",
+            "version": "5.46",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/f/file/file-5.46.tar.bz2",
+            "source": [
+                {
+                    "url": "https://astron.com/pub/file/file-5.46.tar.gz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "findutils-4.10.0-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash",
+                "glibc"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "findutils",
+            "platform": "linux",
+            "version": "4.10.0",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/f/findutils/findutils-4.10.0.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/findutils/findutils-4.10.0.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/findutils/findutils-4.10.0.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/findutils/findutils-4.10.0.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/findutils/findutils-4.10.0.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/findutils/findutils-4.10.0.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
         "gcc-15.2.0-0.tar.bz2": {
             "arch": "x86_64",
             "build": "0",
             "build_number": 0,
             "depends": [
-                "glibc",
-                "binutils",
-                "gmp",
-                "mpfr",
-                "mpc"
+                "glibc >=2.40",
+                "binutils >=2.40",
+                "gmp >=6.2.1",
+                "mpfr >=4.1.0",
+                "mpc >=1.2.0"
             ],
             "license": "GPLv3+",
             "name": "gcc",
@@ -94,7 +312,19 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gcc/gcc-15.2.0.tar.bz2",
             "source": [
                 {
-                    "url": "https://ftp.gnu.org/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+                    "url": "https://mirror.clientvps.com/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gcc/gcc-15.2.0/gcc-15.2.0.tar.xz"
                 }
             ],
             "extras": [],
@@ -105,6 +335,46 @@
                 "mpfr",
                 "mpc"
             ]
+        },
+        "gettext-0.23-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "acl >=2.3.0",
+                "bash >=5.0",
+                "glibc >=2.40",
+                "ncurses >=6.0"
+            ],
+            "license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+            "name": "gettext",
+            "platform": "linux",
+            "version": "0.23",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gettext/gettext-0.23.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/gettext/gettext-0.23.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/gettext/gettext-0.23.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/gettext/gettext-0.23.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/gettext/gettext-0.23.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gettext/gettext-0.23.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
         },
         "glibc-2.42-0.tar.bz2": {
             "arch": "x86_64",
@@ -118,7 +388,19 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/glibc/glibc-2.42.tar.bz2",
             "source": [
                 {
-                    "url": "https://ftpmirror.gnu.org/gnu/glibc/glibc-2.42.tar.xz"
+                    "url": "https://mirror.clientvps.com/gnu/glibc/glibc-2.42.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/glibc/glibc-2.42.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/glibc/glibc-2.42.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/glibc/glibc-2.42.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/glibc/glibc-2.42.tar.xz"
                 }
             ],
             "extras": [
@@ -144,10 +426,59 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/gmp/gmp-6.3.0.tar.bz2",
             "source": [
                 {
-                    "url": "https://ftp.gnu.org/gnu/gmp/gmp-6.3.0.tar.xz"
+                    "url": "https://mirror.clientvps.com/gnu/gmp/gmp-6.3.0.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/gmp/gmp-6.3.0.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/gmp/gmp-6.3.0.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/gmp/gmp-6.3.0.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gmp/gmp-6.3.0.tar.xz"
                 }
             ],
             "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "grep-3.12-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "glibc"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "grep",
+            "platform": "linux",
+            "version": "3.12",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/grep/grep-3.12.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/grep/grep-3.12.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/grep/grep-3.12.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/grep/grep-3.12.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/grep/grep-3.12.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/grep/grep-3.12.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -167,6 +498,18 @@
             "source": [
                 {
                     "url": "https://mirror.clientvps.com/gnu/gzip/gzip-1.14.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/gzip/gzip-1.14.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/gzip/gzip-1.14.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/gzip/gzip-1.14.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gzip/gzip-1.14.tar.xz"
                 }
             ],
             "extras": [],
@@ -204,6 +547,198 @@
             "no_package": false,
             "mkdeps": []
         },
+        "m4-1.4.20-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash",
+                "glibc"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "m4",
+            "platform": "linux",
+            "version": "1.4.20",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/m/m4/m4-1.4.20.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/m4/m4-1.4.20.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/m4/m4-1.4.20.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/m4/m4-1.4.20.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/m4/m4-1.4.20.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/m4/m4-1.4.20.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "make-4.4.1-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash >=5.0",
+                "coreutils >=9.0",
+                "glibc >=2.40"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "make",
+            "platform": "linux",
+            "version": "4.4.1",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/m/make/make-4.4.1.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/make/make-4.4.1.tar.gz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/make/make-4.4.1.tar.gz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/make/make-4.4.1.tar.gz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/make/make-4.4.1.tar.gz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/make/make-4.4.1.tar.gz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "ncurses-6.5-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "glibc >=2.40"
+            ],
+            "license": "MIT",
+            "name": "ncurses",
+            "platform": "linux",
+            "version": "6.5",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/n/ncurses/ncurses-6.5.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/ncurses/ncurses-6.5.tar.gz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/ncurses/ncurses-6.5.tar.gz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/ncurses/ncurses-6.5.tar.gz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/ncurses/ncurses-6.5.tar.gz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/ncurses/ncurses-6.5.tar.gz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "patch-2.7.6-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash >=5.0",
+                "coreutils >=9.0",
+                "glibc >=2.40"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "patch",
+            "platform": "linux",
+            "version": "2.7.6",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/p/patch/patch-2.7.6.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/patch/patch-2.7.6.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/patch/patch-2.7.6.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/patch/patch-2.7.6.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/patch/patch-2.7.6.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/patch/patch-2.7.6.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "sed-4.9-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "acl >=2.3.0",
+                "attr >=2.5.0",
+                "glibc >=2.40"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "sed",
+            "platform": "linux",
+            "version": "4.9",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/s/sed/sed-4.9.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/sed/sed-4.9.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/sed/sed-4.9.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/sed/sed-4.9.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/sed/sed-4.9.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/sed/sed-4.9.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
         "tar-1.35-0.tar.bz2": {
             "arch": "x86_64",
             "build": "0",
@@ -219,9 +754,61 @@
             "source": [
                 {
                     "url": "https://mirror.clientvps.com/gnu/tar/tar-1.35.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/tar/tar-1.35.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/tar/tar-1.35.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/tar/tar-1.35.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/tar/tar-1.35.tar.xz"
                 }
             ],
             "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "texinfo-7.2-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "bash >=5.0",
+                "glibc >=2.40",
+                "ncurses >=6.0",
+                "perl"
+            ],
+            "license": "GPL-3.0-or-later",
+            "name": "texinfo",
+            "platform": "linux",
+            "version": "7.2",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/t/texinfo/texinfo-7.2.tar.bz2",
+            "source": [
+                {
+                    "url": "https://mirror.clientvps.com/gnu/texinfo/texinfo-7.2.tar.xz"
+                },
+                {
+                    "url": "https://mirror.checkdomain.de/gnu/texinfo/texinfo-7.2.tar.xz"
+                },
+                {
+                    "url": "ftp://mirror.checkdomain.de/gnu/texinfo/texinfo-7.2.tar.xz"
+                },
+                {
+                    "url": "https://ftp.halifax.rwth-aachen.de/gnu/texinfo/texinfo-7.2.tar.xz"
+                },
+                {
+                    "url": "https://quantum-mirror.hu/mirrors/pub/gnu/texinfo/texinfo-7.2.tar.xz"
+                }
+            ],
+            "extras": [
+                ".build",
+                ".install"
+            ],
             "is_group": false,
             "no_package": false,
             "mkdeps": []

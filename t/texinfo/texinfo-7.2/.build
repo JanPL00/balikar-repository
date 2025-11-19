@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+
+# Texinfo 7.2 build script based on LFS 12.4
+
+# Configure
+./configure --prefix=/usr
+
+# Build
+make
+
+# Install
+if [ -n "$DESTDIR" ]; then
+    make DESTDIR="$DESTDIR" install
+    
+    # Push to the install dir for info command
+    make DESTDIR="$DESTDIR" TEXMF="${DESTDIR}/usr/share/texmf" install-tex
+else
+    make install
+    
+    # Push to the install dir for info command  
+    make TEXMF=/usr/share/texmf install-tex
+fi
