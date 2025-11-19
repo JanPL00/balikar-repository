@@ -164,10 +164,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/bison/bison-3.8.2.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -240,10 +237,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/diffutils/diffutils-3.12.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -266,10 +260,7 @@
                     "url": "https://astron.com/pub/file/file-5.46.tar.gz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []
@@ -304,10 +295,7 @@
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/findutils/findutils-4.10.0.tar.xz"
                 }
             ],
-            "extras": [
-                ".build",
-                ".install"
-            ],
+            "extras": [],
             "is_group": false,
             "no_package": false,
             "mkdeps": []

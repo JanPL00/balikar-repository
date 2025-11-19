@@ -10,7 +10,7 @@ set -e
             --docdir=/usr/share/doc/bash-5.3
 
 # Build
-make
+make DESTDIR=$P install
 
 # Install
 make install
