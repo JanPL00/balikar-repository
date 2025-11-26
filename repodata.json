@@ -391,6 +391,9 @@
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/g/glibc/glibc-2.42.tar.bz2",
             "source": [
                 {
+                    "url": "glibc-2.42.tar.xz"
+                },
+                {
                     "url": "https://mirror.clientvps.com/gnu/glibc/glibc-2.42.tar.xz"
                 },
                 {
