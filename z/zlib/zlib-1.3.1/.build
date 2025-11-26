@@ -2,4 +2,4 @@
 
 make
 
-make DESTDIR=$P install
+make DESTDIR=$DESTDIR install

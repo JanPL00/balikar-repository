@@ -14,5 +14,5 @@ make
 make html
 
 # Install
-make DESTDIR=$P install
-make DESTDIR=$P install-html
+make DESTDIR=$DESTDIR install
+make DESTDIR=$DESTDIR install-html

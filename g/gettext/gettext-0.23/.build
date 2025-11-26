@@ -12,5 +12,5 @@ set -e
 make
 
 # Install
-make DESTDIR=$P install
-chmod -v 0755 "$P/usr/lib/preloadable_libintl.so"
+make DESTDIR=$DESTDIR install
+chmod -v 0755 "$DESTDIR/usr/lib/preloadable_libintl.so"

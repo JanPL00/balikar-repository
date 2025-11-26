@@ -16,9 +16,9 @@ autoreconf -fiv
 make
 
 # Install
-make DESTDIR=$P install
+make DESTDIR=$DESTDIR install
 
 # Move programs to proper locations
-mv -v $P/usr/bin/chroot $P/usr/sbin
-mv -v $P/usr/share/man/man1/chroot.1 $P/usr/share/man/man8/chroot.8
-sed -i 's/"1"/"8"/' $P/usr/share/man/man8/chroot.8
+mv -v $DESTDIR/usr/bin/chroot $DESTDIR/usr/sbin
+mv -v $DESTDIR/usr/share/man/man1/chroot.1 $DESTDIR/usr/share/man/man8/chroot.8
+sed -i 's/"1"/"8"/' $DESTDIR/usr/share/man/man8/chroot.8

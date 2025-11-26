@@ -17,16 +17,16 @@ set -e
 make
 
 # Install
-make DESTDIR=$P install
+make DESTDIR=$DESTDIR install
 
 # Create symlinks for compatibility
 for lib in ncurses form panel menu ; do
-    ln -sfv lib${lib}w.so "$P/usr/lib/lib${lib}.so"
-    ln -sfv ${lib}w.pc    "$P/usr/lib/pkgconfig/${lib}.pc"
+    ln -sfv lib${lib}w.so "$DESTDIR/usr/lib/lib${lib}.so"
+    ln -sfv ${lib}w.pc    "$DESTDIR/usr/lib/pkgconfig/${lib}.pc"
 done
 
-ln -sfv libncursesw.so "$P/usr/lib/libcurses.so"
+ln -sfv libncursesw.so "$DESTDIR/usr/lib/libcurses.so"
 
 # Install documentation
-mkdir -pv "$P/usr/share/doc/ncurses-6.5"
-cp -v -R doc/* "$P/usr/share/doc/ncurses-6.5"
+mkdir -pv "$DESTDIR/usr/share/doc/ncurses-6.5"
+cp -v -R doc/* "$DESTDIR/usr/share/doc/ncurses-6.5"

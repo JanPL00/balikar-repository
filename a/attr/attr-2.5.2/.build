@@ -13,4 +13,4 @@ set -e
 make
 
 # Install
-make DESTDIR=$P install
+make DESTDIR=$DESTDIR install
