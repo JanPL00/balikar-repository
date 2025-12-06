@@ -1,8 +1,6 @@
 #!/bin/bash
-set -e
+# Simple install script for iana-etc
+# Just copy the files to /etc
 
-# Build
-make
-
-# Install
-make DESTDIR=$DESTDIR install
+install -vm644 services "${DESTDIR}/etc/services"
+install -vm644 protocols "${DESTDIR}/etc/protocols"
