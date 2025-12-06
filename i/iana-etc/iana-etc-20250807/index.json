@@ -15,7 +15,7 @@
   }],
   "extras": [
   ],
-  "is_group": true,
+  "is_group": false,
   "no_package": false,
   "mkdeps": [
 
