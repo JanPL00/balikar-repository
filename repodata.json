@@ -556,10 +556,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libssh2-1.11.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -582,10 +579,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "m4-1.4.20-0.tar.bz2": {
             "arch": "x86_64",
@@ -708,10 +702,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "openssl-3.4.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -731,10 +722,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "patch-2.7.6-0.tar.bz2": {
             "arch": "x86_64",
