@@ -3,7 +3,7 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "iana-etc"
+    "glibc"
   ],
   "license": "zlib",
   "name": "zlib",
