@@ -32,7 +32,7 @@
   ],
   "extras": [],
   "is_group": false,
-  "no_package": false,
+  "no_package": true,
   "mkdeps": [
     "gmp",
     "mpfr",

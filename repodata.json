@@ -323,7 +323,7 @@
             ],
             "extras": [],
             "is_group": false,
-            "no_package": false,
+            "no_package": true,
             "mkdeps": [
                 "gmp",
                 "mpfr",
@@ -650,7 +650,7 @@
             ],
             "extras": [],
             "is_group": false,
-            "no_package": false,
+            "no_package": true,
             "mkdeps": []
         },
         "ncurses-6.5-0.tar.bz2": {
