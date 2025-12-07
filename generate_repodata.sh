@@ -29,6 +29,7 @@ def main():
     }
     
     package_count = 0
+    error_count = 0
     
     # Iterate through all directories (a-z)
     for letter_dir in sorted(repo_root.iterdir()):
@@ -87,10 +88,20 @@ def main():
                     
                 except json.JSONDecodeError as e:
                     print(f"  ✗ ERROR: Invalid JSON in {index_json_path}: {e}", file=sys.stderr)
+                    error_count += 1
                     continue
                 except Exception as e:
                     print(f"  ✗ ERROR processing {index_json_path}: {e}", file=sys.stderr)
+                    error_count += 1
                     continue
+    
+    # Check if there were any errors
+    if error_count > 0:
+        print()
+        print(f"✗ FAILED: Found {error_count} error(s) during processing", file=sys.stderr)
+        print(f"✗ Processed {package_count} packages successfully", file=sys.stderr)
+        print("✗ Please fix the errors above and try again", file=sys.stderr)
+        return 1
     
     # Write repodata.json
     try:
