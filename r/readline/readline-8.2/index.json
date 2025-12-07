@@ -3,7 +3,6 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "glibc >=2.40",
     "ncurses >=6.0"
   ],
   "license": "GPL-3.0-or-later",

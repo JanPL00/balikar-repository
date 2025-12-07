@@ -4,8 +4,7 @@
   "build_number": 0,
   "depends": [
     "acl >=2.3.0",
-    "attr >=2.5.0",
-    "glibc >=2.40"
+    "attr >=2.5.0"
   ],
   "license": "GPL-3.0-or-later",
   "name": "sed",

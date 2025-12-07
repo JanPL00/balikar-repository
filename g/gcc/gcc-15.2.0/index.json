@@ -3,7 +3,6 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "glibc >=2.40",
     "binutils >=2.40",
     "gmp >=6.2.1",
     "mpfr >=4.1.0",

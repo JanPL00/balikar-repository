@@ -4,8 +4,7 @@
   "build_number": 0,
   "depends": [
     "bash >=5.0",
-    "coreutils >=9.0",
-    "glibc >=2.40"
+    "coreutils >=9.0"
   ],
   "license": "GPL-3.0-or-later",
   "name": "make",

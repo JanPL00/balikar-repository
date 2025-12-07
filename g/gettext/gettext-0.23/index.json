@@ -5,7 +5,6 @@
   "depends": [
     "acl >=2.3.0",
     "bash >=5.0",
-    "glibc >=2.40",
     "ncurses >=6.0"
   ],
   "license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
