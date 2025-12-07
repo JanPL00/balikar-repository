@@ -3,7 +3,7 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "bash",
+    "bash"
   ],
   "license": "GPL-3.0-or-later",
   "name": "findutils",

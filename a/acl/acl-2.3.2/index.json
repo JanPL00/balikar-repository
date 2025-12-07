@@ -3,7 +3,7 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "attr >=2.5.0",
+    "attr >=2.5.0"
   ],
   "license": "LGPL-2.1-or-later",
   "name": "acl",
