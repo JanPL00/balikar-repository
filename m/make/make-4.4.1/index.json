@@ -2,10 +2,7 @@
   "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "depends": [
-    "bash >=5.0",
-    "coreutils >=9.0"
-  ],
+  "depends": [],
   "license": "GPL-3.0-or-later",
   "name": "make",
   "platform": "linux",
