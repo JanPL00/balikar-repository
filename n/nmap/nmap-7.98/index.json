@@ -6,8 +6,7 @@
     "libpcap",
     "openssl",
     "zlib",
-    "libssh2",
-    "libpcre2"
+    "libssh2"
   ],
   "license": "GPL-2.0",
   "name": "nmap",
