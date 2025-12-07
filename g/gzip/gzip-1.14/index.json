@@ -2,9 +2,7 @@
   "arch": "noarch",
   "build": "0",
   "build_number": 0,
-  "depends": [
-    "glibc"
-  ],
+  "depends": [],
   "license": "GPLv3+",
   "name": "gzip",
   "platform": "linux",

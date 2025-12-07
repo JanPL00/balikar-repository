@@ -29,8 +29,7 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/make/make-4.4.1.tar.gz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []

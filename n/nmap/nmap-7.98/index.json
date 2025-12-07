@@ -13,9 +13,11 @@
   "platform": "linux",
   "version": "7.98",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/n/nmap/nmap-7.98.tar.bz2",
-  "source": [{
-    "url": "https://nmap.org/dist/nmap-7.98.tar.bz2"
-  }],
+  "source": [
+    {
+      "url": "https://nmap.org/dist/nmap-7.98.tar.bz2"
+    }
+  ],
   "extras": [],
   "is_group": false,
   "no_package": false,

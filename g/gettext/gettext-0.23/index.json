@@ -30,8 +30,7 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/gettext/gettext-0.23.tar.xz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []

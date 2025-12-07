@@ -8,9 +8,11 @@
   "platform": "linux",
   "version": "20250807",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/i/iana-etc/iana-etc-20250807.tar.bz2",
-  "source": [{
-    "url": "https://github.com/Mic92/iana-etc/releases/download/20250807/iana-etc-20250807.tar.gz"
-  }],
+  "source": [
+    {
+      "url": "https://github.com/Mic92/iana-etc/releases/download/20250807/iana-etc-20250807.tar.gz"
+    }
+  ],
   "extras": [],
   "is_group": false,
   "no_package": false,

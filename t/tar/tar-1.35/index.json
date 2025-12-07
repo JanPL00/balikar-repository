@@ -2,9 +2,7 @@
   "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "depends": [
-    "glibc"
-  ],
+  "depends": [],
   "license": "GPLv3+",
   "name": "tar",
   "platform": "linux",

@@ -4,7 +4,6 @@
   "build_number": 0,
   "depends": [
     "bash",
-    "glibc"
   ],
   "license": "GPL-3.0-or-later",
   "name": "findutils",

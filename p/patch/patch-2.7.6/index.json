@@ -29,8 +29,7 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/patch/patch-2.7.6.tar.xz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []

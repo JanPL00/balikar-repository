@@ -8,9 +8,11 @@
   "platform": "linux",
   "version": "1.10.5",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/l/libpcap/libpcap-1.10.5.tar.bz2",
-  "source": [{
-    "url": "https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz"
-  }],
+  "source": [
+    {
+      "url": "https://www.tcpdump.org/release/libpcap-1.10.5.tar.gz"
+    }
+  ],
   "extras": [],
   "is_group": false,
   "no_package": false,

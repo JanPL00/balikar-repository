@@ -16,8 +16,7 @@
       "url": "https://astron.com/pub/file/file-5.46.tar.gz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []

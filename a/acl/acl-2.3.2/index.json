@@ -4,7 +4,6 @@
   "build_number": 0,
   "depends": [
     "attr >=2.5.0",
-    "glibc"
   ],
   "license": "LGPL-2.1-or-later",
   "name": "acl",

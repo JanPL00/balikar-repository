@@ -2,9 +2,7 @@
   "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "depends": [
-    "glibc"
-  ],
+  "depends": [],
   "license": "GPL-3.0-or-later",
   "name": "grep",
   "platform": "linux",
@@ -27,8 +25,7 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/grep/grep-3.12.tar.xz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []

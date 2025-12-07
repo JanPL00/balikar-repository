@@ -27,8 +27,7 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/ncurses/ncurses-6.5.tar.gz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []

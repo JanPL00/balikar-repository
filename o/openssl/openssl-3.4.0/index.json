@@ -8,9 +8,11 @@
   "platform": "linux",
   "version": "3.4.0",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/o/openssl/openssl-3.4.0.tar.bz2",
-  "source": [{
-    "url": "https://www.openssl.org/source/openssl-3.4.0.tar.gz"
-  }],
+  "source": [
+    {
+      "url": "https://www.openssl.org/source/openssl-3.4.0.tar.gz"
+    }
+  ],
   "extras": [],
   "is_group": false,
   "no_package": false,

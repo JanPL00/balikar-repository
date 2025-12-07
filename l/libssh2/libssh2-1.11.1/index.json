@@ -11,9 +11,11 @@
   "platform": "linux",
   "version": "1.11.1",
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/l/libssh2/libssh2-1.11.1.tar.bz2",
-  "source": [{
-    "url": "https://www.libssh2.org/download/libssh2-1.11.1.tar.gz"
-  }],
+  "source": [
+    {
+      "url": "https://www.libssh2.org/download/libssh2-1.11.1.tar.gz"
+    }
+  ],
   "extras": [],
   "is_group": false,
   "no_package": false,

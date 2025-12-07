@@ -29,8 +29,7 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/sed/sed-4.9.tar.xz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
   "mkdeps": []
