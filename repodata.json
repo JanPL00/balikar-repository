@@ -163,6 +163,48 @@
             "no_package": false,
             "mkdeps": []
         },
+        "bzip2-1.0.8-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "license": "bzip2-1.0.6",
+            "name": "bzip2",
+            "platform": "linux",
+            "version": "1.0.8",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/b/bzip2/bzip2-1.0.8.tar.bz2",
+            "source": [
+                {
+                    "url": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"
+                }
+            ],
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "ca-certificates-20240203-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "openssl"
+            ],
+            "license": "MPL-2.0",
+            "name": "ca-certificates",
+            "platform": "linux",
+            "version": "20240203",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/c/ca-certificates/ca-certificates-20240203.tar.bz2",
+            "source": [
+                {
+                    "url": "https://salsa.debian.org/debian/ca-certificates/-/archive/20240203/ca-certificates-20240203.tar.gz"
+                }
+            ],
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
         "coreutils-9.7-0.tar.bz2": {
             "arch": "x86_64",
             "build": "0",
@@ -538,6 +580,81 @@
             "no_package": false,
             "mkdeps": []
         },
+        "libarchive13-3.7.7-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "zlib",
+                "openssl",
+                "bzip2",
+                "xz-utils"
+            ],
+            "license": "BSD-2-Clause",
+            "name": "libarchive13",
+            "platform": "linux",
+            "version": "3.7.7",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/l/libarchive13/libarchive13-3.7.7.tar.bz2",
+            "source": [
+                {
+                    "url": "https://www.libarchive.org/downloads/libarchive-3.7.7.tar.xz"
+                },
+                {
+                    "url": "https://github.com/libarchive/libarchive/releases/download/v3.7.7/libarchive-3.7.7.tar.xz"
+                }
+            ],
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "libcurl4-8.11.1-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [
+                "openssl",
+                "zlib",
+                "ca-certificates"
+            ],
+            "license": "curl",
+            "name": "libcurl4",
+            "platform": "linux",
+            "version": "8.11.1",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/l/libcurl4/libcurl4-8.11.1.tar.bz2",
+            "source": [
+                {
+                    "url": "https://curl.se/download/curl-8.11.1.tar.xz"
+                },
+                {
+                    "url": "https://github.com/curl/curl/releases/download/curl-8_11_1/curl-8.11.1.tar.xz"
+                }
+            ],
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "libjansson4-2.14-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "license": "MIT",
+            "name": "libjansson4",
+            "platform": "linux",
+            "version": "2.14",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/l/libjansson4/libjansson4-2.14.tar.bz2",
+            "source": [
+                {
+                    "url": "https://github.com/akheron/jansson/releases/download/v2.14/jansson-2.14.tar.bz2"
+                }
+            ],
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
         "libpcap-1.10.5-0.tar.bz2": {
             "arch": "x86_64",
             "build": "0",
@@ -889,6 +1006,29 @@
                 },
                 {
                     "url": "https://quantum-mirror.hu/mirrors/pub/gnu/texinfo/texinfo-7.2.tar.xz"
+                }
+            ],
+            "extras": [],
+            "is_group": false,
+            "no_package": false,
+            "mkdeps": []
+        },
+        "xz-utils-5.6.3-0.tar.bz2": {
+            "arch": "x86_64",
+            "build": "0",
+            "build_number": 0,
+            "depends": [],
+            "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+            "name": "xz-utils",
+            "platform": "linux",
+            "version": "5.6.3",
+            "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/x/xz-utils/xz-utils-5.6.3.tar.bz2",
+            "source": [
+                {
+                    "url": "https://github.com/tukaani-project/xz/releases/download/v5.6.3/xz-5.6.3.tar.xz"
+                },
+                {
+                    "url": "https://downloads.sourceforge.net/lzmautils/xz-5.6.3.tar.xz"
                 }
             ],
             "extras": [],
