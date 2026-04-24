@@ -1,0 +1,32 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "autoconf",
+    "perl"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "automake",
+  "platform": "linux",
+  "version": "1.17",
+  "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/a/automake/automake-1.17.tar.bz2",
+  "source": [
+    {
+      "url": "https://mirror.clientvps.com/gnu/automake/automake-1.17.tar.xz"
+    },
+    {
+      "url": "https://mirror.checkdomain.de/gnu/automake/automake-1.17.tar.xz"
+    },
+    {
+      "url": "https://ftp.halifax.rwth-aachen.de/gnu/automake/automake-1.17.tar.xz"
+    },
+    {
+      "url": "https://quantum-mirror.hu/mirrors/pub/gnu/automake/automake-1.17.tar.xz"
+    }
+  ],
+  "extras": [],
+  "is_group": false,
+  "no_package": false,
+  "mkdeps": []
+}
