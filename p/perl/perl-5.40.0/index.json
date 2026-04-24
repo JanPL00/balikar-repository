@@ -10,9 +10,6 @@
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/p/perl/perl-5.40.0.tar.bz2",
   "source": [
     {
-      "url": "https://www.cpan.org/src/5.0/perl-5.40.0.tar.gz"
-    },
-    {
       "url": "https://www.cpan.org/src/5.0/perl-5.40.0.tar.xz"
     },
     {
