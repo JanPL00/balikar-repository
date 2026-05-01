@@ -4,7 +4,10 @@
   "build_number": 0,
   "depends": [
     "gcc",
-    "libstdc++"
+    "libstdc++",
+    "gmp",
+    "mpfr",
+    "mpc"
   ],
   "license": "GPL-3.0-or-later",
   "name": "g++",
@@ -28,9 +31,5 @@
   "extras": [],
   "is_group": false,
   "no_package": false,
-  "mkdeps": [
-    "gmp",
-    "mpfr",
-    "mpc"
-  ]
+  "mkdeps": []
 }

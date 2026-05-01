@@ -6,7 +6,10 @@
     "binutils >=2.40",
     "gmp >=6.2.1",
     "mpfr >=4.1.0",
-    "mpc >=1.2.0"
+    "mpc >=1.2.0",
+    "gmp",
+    "mpfr",
+    "mpc"
   ],
   "license": "GPLv3+",
   "name": "gcc",
@@ -33,9 +36,5 @@
   "extras": [],
   "is_group": false,
   "no_package": true,
-  "mkdeps": [
-    "gmp",
-    "mpfr",
-    "mpc"
-  ]
+  "mkdeps": []
 }

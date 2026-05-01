@@ -3,7 +3,10 @@
   "build": "0",
   "build_number": 0,
   "depends": [
-    "libgcc"
+    "libgcc",
+    "gmp",
+    "mpfr",
+    "mpc"
   ],
   "license": "GPL-3.0-or-later WITH GCC-exception-3.1",
   "name": "libstdc++",
@@ -27,9 +30,5 @@
   "extras": [],
   "is_group": false,
   "no_package": false,
-  "mkdeps": [
-    "gmp",
-    "mpfr",
-    "mpc"
-  ]
+  "mkdeps": []
 }
