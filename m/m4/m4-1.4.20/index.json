@@ -12,6 +12,9 @@
   "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/m/m4/m4-1.4.20.tar.bz2",
   "source": [
     {
+      "url": "https://ftp.gnu.org/gnu/m4/m4-1.4.20.tar.gz"
+    },
+    {
       "url": "https://mirror.clientvps.com/gnu/m4/m4-1.4.20.tar.xz"
     },
     {

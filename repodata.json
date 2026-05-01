@@ -440,7 +440,9 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": []
+            "mkdeps": [
+                "m4"
+            ]
         },
         "g++-15.2.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -923,7 +925,9 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": []
+            "mkdeps": [
+                "flex"
+            ]
         },
         "libssh2-1.11.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -1048,6 +1052,9 @@
             "version": "1.4.20",
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/m/m4/m4-1.4.20.tar.bz2",
             "source": [
+                {
+                    "url": "https://ftp.gnu.org/gnu/m4/m4-1.4.20.tar.gz"
+                },
                 {
                     "url": "https://mirror.clientvps.com/gnu/m4/m4-1.4.20.tar.xz"
                 },
@@ -1259,7 +1266,9 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": []
+            "mkdeps": [
+                "perl"
+            ]
         },
         "patch-2.7.6-0.tar.bz2": {
             "arch": "x86_64",
@@ -1307,6 +1316,9 @@
             "version": "5.40.0",
             "download_url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/p/perl/perl-5.40.0.tar.bz2",
             "source": [
+                {
+                    "url": "https://www.cpan.org/src/5.0/perl-5.40.0.tar.gz"
+                },
                 {
                     "url": "https://www.cpan.org/src/5.0/perl-5.40.0.tar.xz"
                 },
