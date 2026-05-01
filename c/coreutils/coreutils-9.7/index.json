@@ -31,5 +31,8 @@
   ],
   "is_group": false,
   "no_package": false,
-  "mkdeps": []
+  "mkdeps": [
+    "gcc",
+    "make"
+  ]
 }

@@ -27,9 +27,11 @@
       "url": "https://quantum-mirror.hu/mirrors/pub/gnu/m4/m4-1.4.20.tar.xz"
     }
   ],
-  "extras": [
-  ],
+  "extras": [],
   "is_group": false,
   "no_package": false,
-  "mkdeps": []
+  "mkdeps": [
+    "gcc",
+    "make"
+  ]
 }

@@ -11,5 +11,9 @@
     {
       "url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/h/hello/hello-1.0.tar.bz2"
     }
+  ],
+  "mkdeps": [
+    "gcc",
+    "make"
   ]
 }
