@@ -37,10 +37,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "attr-2.5.2-0.tar.bz2": {
             "arch": "x86_64",
@@ -72,10 +69,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "autoconf-2.72-0.tar.bz2": {
             "arch": "x86_64",
@@ -107,10 +101,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "automake-1.17-0.tar.bz2": {
             "arch": "x86_64",
@@ -142,10 +133,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "bash-5.3-0.tar.bz2": {
             "arch": "x86_64",
@@ -179,10 +167,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "binutils-2.45-0.tar.bz2": {
             "arch": "x86_64",
@@ -204,10 +189,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "bison-3.8.2-0.tar.bz2": {
             "arch": "x86_64",
@@ -243,10 +225,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "bzip2-1.0.8-0.tar.bz2": {
             "arch": "x86_64",
@@ -266,10 +245,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "ca-certificates-20240203-0.tar.bz2": {
             "arch": "x86_64",
@@ -291,9 +267,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "make"
-            ]
+            "mkdeps": []
         },
         "coreutils-9.7-0.tar.bz2": {
             "arch": "x86_64",
@@ -328,10 +302,7 @@
             ],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "curl-8.11.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -358,10 +329,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "diffutils-3.12-0.tar.bz2": {
             "arch": "x86_64",
@@ -396,10 +364,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "file-5.46-0.tar.bz2": {
             "arch": "x86_64",
@@ -421,10 +386,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "findutils-4.10.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -458,10 +420,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "flex-2.6.4-0.tar.bz2": {
             "arch": "x86_64",
@@ -481,10 +440,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "g++-15.2.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -517,8 +473,6 @@
             "is_group": false,
             "no_package": false,
             "mkdeps": [
-                "gcc",
-                "make",
                 "gmp",
                 "mpfr",
                 "mpc"
@@ -551,10 +505,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "gcc-15.2.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -615,10 +566,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "gettext-0.23-0.tar.bz2": {
             "arch": "x86_64",
@@ -654,10 +602,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "glibc-2.42-0.tar.bz2": {
             "arch": "x86_64",
@@ -695,10 +640,7 @@
             ],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "gmp-6.3.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -730,10 +672,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "grep-3.12-0.tar.bz2": {
             "arch": "x86_64",
@@ -765,10 +704,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "gzip-1.14-0.tar.bz2": {
             "arch": "noarch",
@@ -803,10 +739,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "hello-1.0-0.tar.bz2": {
             "name": "hello",
@@ -822,10 +755,7 @@
                     "url": "https://raw.githubusercontent.com/JanPL00/balikar-repository/main/h/hello/hello-1.0.tar.bz2"
                 }
             ],
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "iana-etc-20250807-0.tar.bz2": {
             "arch": "noarch",
@@ -865,10 +795,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libarchive13-3.7.7-0.tar.bz2": {
             "arch": "x86_64",
@@ -896,10 +823,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libcurl4-8.11.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -926,10 +850,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libgcc-15.2.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -959,8 +880,6 @@
             "is_group": false,
             "no_package": false,
             "mkdeps": [
-                "gcc",
-                "make",
                 "gmp",
                 "mpfr",
                 "mpc"
@@ -984,10 +903,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libpcap-1.10.5-0.tar.bz2": {
             "arch": "x86_64",
@@ -1007,10 +923,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libssh2-1.11.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -1033,10 +946,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "libstdc++-15.2.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -1068,8 +978,6 @@
             "is_group": false,
             "no_package": false,
             "mkdeps": [
-                "gcc",
-                "make",
                 "gmp",
                 "mpfr",
                 "mpc"
@@ -1105,10 +1013,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "linux-headers-6.12.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -1128,9 +1033,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "make"
-            ]
+            "mkdeps": []
         },
         "m4-1.4.20-0.tar.bz2": {
             "arch": "x86_64",
@@ -1164,10 +1067,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "make-4.4.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -1231,10 +1131,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "mpfr-4.2.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -1265,10 +1162,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "musl-dev-1.2.5-0.tar.bz2": {
             "arch": "x86_64",
@@ -1288,10 +1182,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "ncurses-6.5-0.tar.bz2": {
             "arch": "x86_64",
@@ -1323,10 +1214,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "nmap-7.98-0.tar.bz2": {
             "arch": "x86_64",
@@ -1351,10 +1239,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "openssl-3.4.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -1374,11 +1259,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make",
-                "perl"
-            ]
+            "mkdeps": []
         },
         "patch-2.7.6-0.tar.bz2": {
             "arch": "x86_64",
@@ -1413,10 +1294,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "perl-5.40.0-0.tar.bz2": {
             "arch": "x86_64",
@@ -1439,10 +1317,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "python3-3.13.3-0.tar.bz2": {
             "arch": "x86_64",
@@ -1467,10 +1342,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "readline-8.2-0.tar.bz2": {
             "arch": "x86_64",
@@ -1504,10 +1376,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "sed-4.9-0.tar.bz2": {
             "arch": "x86_64",
@@ -1542,10 +1411,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "tar-1.35-0.tar.bz2": {
             "arch": "x86_64",
@@ -1577,10 +1443,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "texinfo-7.2-0.tar.bz2": {
             "arch": "x86_64",
@@ -1616,10 +1479,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "xz-5.6.3-0.tar.bz2": {
             "arch": "x86_64",
@@ -1642,10 +1502,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "xz-utils-5.6.3-0.tar.bz2": {
             "arch": "x86_64",
@@ -1668,10 +1525,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         },
         "zlib-1.3.1-0.tar.bz2": {
             "arch": "x86_64",
@@ -1691,10 +1545,7 @@
             "extras": [],
             "is_group": false,
             "no_package": false,
-            "mkdeps": [
-                "gcc",
-                "make"
-            ]
+            "mkdeps": []
         }
     },
     "packages.conda": {}
