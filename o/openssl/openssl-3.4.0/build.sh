@@ -8,7 +8,7 @@ set -e
     --openssldir=/etc/ssl \
     --libdir=lib \
     shared \
-    zlib-dynamic
+    no-zlib
 
 # Build
 make -j$(nproc)
