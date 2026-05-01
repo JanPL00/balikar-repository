@@ -2,7 +2,8 @@
   "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "depends": [
+  "depends": [],
+  "mkdeps": [
     "flex",
     "bison"
   ],
@@ -18,6 +19,5 @@
   ],
   "extras": [],
   "is_group": false,
-  "no_package": false,
-  "mkdeps": []
+  "no_package": false
 }
