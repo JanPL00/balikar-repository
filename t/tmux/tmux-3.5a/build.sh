@@ -21,6 +21,13 @@ export LIBTINFO_LIBS="-L${DEPROOT}/lib -lncursesw"
 export LIBEVENT_CFLAGS="-I${DEPROOT}/include"
 export LIBEVENT_LIBS="-L${DEPROOT}/lib -levent"
 
+# Force-detect forkpty (provided by glibc's libutil); without this configure
+# falls through to tmux's own (incorrectly typed) compat declaration that
+# clashes with /usr/include/pty.h.
+export ac_cv_func_forkpty=yes
+export ac_cv_search_forkpty=-lutil
+export LIBS="${LIBS} -lutil"
+
 ./configure --prefix=/usr --enable-static
 
 make -j$(nproc)
