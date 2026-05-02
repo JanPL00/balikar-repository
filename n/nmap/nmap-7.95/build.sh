@@ -18,6 +18,12 @@ set -e
             --with-liblua=included   \
             --with-libz=included
 
+# Refresh timestamps on autotools-generated files in bundled libpcre so
+# make does not try to re-run aclocal/autoconf/automake (none of which are
+# present on a minimal Debian image).
+find libpcre -name aclocal.m4 -o -name configure -o -name 'Makefile.in' \
+    -o -name 'config.h.in' 2>/dev/null | xargs -r touch
+
 make -j$(nproc)
 
 make DESTDIR="$DESTDIR" install
