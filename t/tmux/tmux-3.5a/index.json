@@ -2,7 +2,7 @@
   "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "depends": ["ncurses", "libevent"],
+  "depends": ["ncurses", "libevent", "bison"],
   "license": "ISC",
   "name": "tmux",
   "platform": "linux",
