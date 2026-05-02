@@ -20,9 +20,18 @@ set -e
 
 # Refresh timestamps on autotools-generated files in bundled libpcre so
 # make does not try to re-run aclocal/autoconf/automake (none of which are
-# present on a minimal Debian image).
-find libpcre -name aclocal.m4 -o -name configure -o -name 'Makefile.in' \
-    -o -name 'config.h.in' 2>/dev/null | xargs -r touch
+# present on a minimal Debian image). Order matters: configure.ac must be
+# OLDER than the generated files (aclocal.m4, configure, Makefile.in, ...).
+if [ -d libpcre ]; then
+    (
+        cd libpcre
+        # Bump generated files to "now"; sleep so configure.ac stays older.
+        touch configure.ac configure.in 2>/dev/null || true
+        sleep 1
+        touch aclocal.m4 configure Makefile.am Makefile.in \
+              config.h.in src/config.h.in 2>/dev/null || true
+    )
+fi
 
 make -j$(nproc)
 
