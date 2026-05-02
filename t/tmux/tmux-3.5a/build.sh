@@ -28,7 +28,7 @@ export ac_cv_func_forkpty=yes
 export ac_cv_search_forkpty=-lutil
 export LIBS="${LIBS} -lutil"
 
-./configure --prefix=/usr --enable-static
+./configure --prefix=/usr
 
 make -j$(nproc)
 
