@@ -30,6 +30,11 @@ export LIBS="${LIBS} -lutil"
 
 ./configure --prefix=/usr --disable-static
 
+# tmux 3.5a still injects "-static" into the link line via configure even
+# with --disable-static. We have only shared libraries for ncursesw/libevent
+# in the chroot, so a fully-static link cannot resolve -lncursesw. Strip it.
+sed -i 's/-static\>//g' Makefile
+
 make -j$(nproc)
 
 make DESTDIR="$DESTDIR" install
